@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar:hover {
+    background-color: #e2e6ea; /* Darker shade on hover */
+}
+
+.nav-link {
+    color: #007bff; /* Bootstrap primary color */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+.service-item, .portfolio-item, .team-member {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.portfolio-card {
+    width: 100%;
+    max-width: 400px; /* Adjust this value for larger cards */
+    height: auto;
+    margin: 0 auto; /* Center the card */
+}
