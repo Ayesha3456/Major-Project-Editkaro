@@ -41,16 +41,13 @@ footer {
     text-decoration: underline; /* Underline effect on hover */
 }
 
-.service-item, .portfolio-item, .team-member {
+.service-item, .team-member {
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
-.portfolio-card {
-    width: 100%;
-    max-width: 400px; /* Adjust this value for larger cards */
-    height: auto;
-    margin: 0 auto; /* Center the card */
+.ax-mt {
+    margin-top: 79px;
 }
