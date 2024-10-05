@@ -7,6 +7,38 @@
     <title>Editkaro.in - Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Ensures the footer stays at the bottom of the page */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full viewport height */
+        }
+
+        .content {
+            flex: 1; /* Allows the content area to grow and fill space */
+        }
+
+        .portfolio-card {
+            transition: transform 0.2s; /* Adds a zoom effect */
+        }
+
+        .portfolio-card:hover {
+            transform: scale(1.05); /* Zoom in on hover */
+        }
+
+        .ax-mt {
+            margin-top: 2rem; /* Improved margin for better spacing */
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,14 +62,14 @@
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container ax-mt">
-        <h1 class="text-center">Portfolio</h1>
+    <div class="container ax-mt content"> <!-- Added 'content' class -->
+        <h1 class="text-center mb-4">Portfolio</h1>
         <div class="row">
             <div class="col-md-6 mb-4">
                 <div class="card portfolio-card">
@@ -76,10 +108,12 @@
                 </div>
             </div>
         </div>
-        <footer class="mt-5 text-center">
-            <p>&copy; 2024. All Rights Reserved. Design by TemplateMonster</p>
-        </footer>
     </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>© 2024 Editkaro.in. All Rights Reserved.</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
